@@ -35,6 +35,9 @@ p, h1, h2, h3, h4, h5, h6 {
     display: flex;
     flex-direction: column;
 }
+.flex-wrap {
+    flex-wrap: wrap;
+}
 .space-between {
     justify-content: space-between;
 }
@@ -60,6 +63,17 @@ p, h1, h2, h3, h4, h5, h6 {
     gap: 15px;
 }
 
+.gap-4 {
+    gap: 20px;
+}
+
+.gap-5 {
+    gap: 25px;
+}
+.gap-6 {
+    gap: 30px;
+}
+
 .dark-background {
     background-color: #1F2937;
 }
@@ -67,7 +81,7 @@ p, h1, h2, h3, h4, h5, h6 {
     background-color: #E5E7EB;
 }
 .primary-background {
-    background-color: #edae00;
+    background-color: #725234;
 }
 .logo {
     height: 40px;
@@ -162,7 +176,7 @@ p, h1, h2, h3, h4, h5, h6 {
     color: #ffffff;
 }
 .btn-solid-prim {
-    background-color: #e1a267;
+    background-color: #725234;
     color: #ffffff;
 }
 
@@ -180,7 +194,7 @@ p, h1, h2, h3, h4, h5, h6 {
 }
 
 .color-primary {
-    color: #edae00;
+    color: #725234;
 }
 
 .color-white {
@@ -203,6 +217,9 @@ p, h1, h2, h3, h4, h5, h6 {
 .mb-4 {
     margin-bottom: 20px;
 }
+.mb-5 {
+    margin-bottom: 25px;
+}
 
 .py-1 {
     padding-top: 5px;
@@ -221,6 +238,15 @@ p, h1, h2, h3, h4, h5, h6 {
 .py-10 {
     padding-top: 50px;
     padding-bottom: 50px;
+}
+
+.px-1 {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.px-2 {
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .px-10 {
@@ -255,7 +281,7 @@ p, h1, h2, h3, h4, h5, h6 {
 }
 
 .navigation li{
-    padding: 10px;
+    padding: 5px 10px;
 }
 
 .navigation .active{
@@ -266,5 +292,18 @@ p, h1, h2, h3, h4, h5, h6 {
 }
 
 section {
-    margin-bottom: 30px;
+    margin-bottom: 40px;
+}
+
+.card {
+    width: 31.5%;
+    border: 0.5px solid black;
+    border-radius: 10px;
+}
+
+.card .img-container img {
+    /* height: 100px;
+    object-fit: cover; */
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
