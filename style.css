@@ -122,7 +122,6 @@ p, h1, h2, h3, h4, h5, h6 {
 
 .hero-left {
     max-width: 50%;
-    /* padding-right: 50px; */
 }
 .hero-right img {
     height: 300px;
@@ -138,11 +137,22 @@ p, h1, h2, h3, h4, h5, h6 {
     height: 400px;
 }
 .cta {
-    height: 300px;
+    height: 400px;
+    background-image: url('assets/2527687_354192-PAZFL1-465.jpg');
+    background-position-y: 70%;
+    background-color: #725234;
+    background-blend-mode: screen;
+    background-size: cover;
+    border-radius: 10px;
 }
-.cta .container {
-   width: 100%;
-   border-radius: 5px;
+
+.cta-input {
+    outline: none;
+    height: 45px;
+    width: 300px;
+    background-color: #ffcb9d; 
+    border: none;
+    border-radius: 30px;
 }
 
 .footer {
@@ -292,7 +302,7 @@ p, h1, h2, h3, h4, h5, h6 {
 }
 
 section {
-    margin-bottom: 40px;
+    margin-bottom: 50px;
 }
 
 .card {
@@ -310,7 +320,6 @@ section {
     width: 23.2%;
     border-radius: 10px;
     height: 300px;
-    border: 1px solid red;
     position: relative;
 }
 .chef-card .img-container {
